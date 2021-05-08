@@ -1,0 +1,21 @@
+html{
+    background-color: lightskyblue;
+    
+}
+nav{
+    text-align: center;
+    font-size: 60;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button{
+    margin-top: 1%;
+}
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20;
+}

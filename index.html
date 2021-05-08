@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <h1>Weather App</h1>
+        </nav>
+        <div id="Text">
+            <label for="searchCity">Input City</label>
+            <input name="searchCity" type = "text" maxLength = "85" id="searchCity">
+            <br>
+            <button onclick="receiveUserData()">Submit</button>
+            <br>
+            <button onclick="changeMeasure()" id="changer">Change to Fahrenheit</button>
+
+            <h1 id="displayName"></h1>
+            <img id="gif" src="#">
+            <h2 id="displayWeather"></h2>
+            <h2 id="displayTemp"></h2>
+            <h2 id="displayWind"></h2>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
